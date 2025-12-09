@@ -10,7 +10,7 @@ Solution uses SHA-256 hashing for data changes (Might want to change core to SQL
 GRANT EXECUTE ON sys.statisticsserver_sendmail_dev TO yourUserName;
 ```
 
-
+and of course a HANA database.  The solution was specifically built on version 2.00.079
 
 # Step 1: build control tables & stored procedure
 
